@@ -1,0 +1,36 @@
+.container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container > .wrapper {
+  border-radius: 0.4rem;
+  text-align: center;
+  width: 60rem;
+  max-width: 95vw;
+  margin-bottom: 10rem;
+}
+
+.container > .wrapper > h1 {
+  font-size: 10rem;
+  margin-top: 0;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.container > .wrapper > p {
+  font-size: 1.6rem;
+}
+
+.container > .wrapper > button {
+  background-color: #3498db;
+  border: none;
+  border-radius: 0.4rem;
+  color: #fff;
+  cursor: pointer;
+  font-size: 2rem;
+  padding: 1rem 2rem;
+  margin-top: 2rem;
+}

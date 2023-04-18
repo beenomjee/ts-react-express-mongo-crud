@@ -1,0 +1,23 @@
+.container {
+  width: 1200px;
+  max-width: 95vw;
+  margin: 5rem auto;
+}
+
+.container > h1 {
+  font-size: 5rem;
+  line-height: 5rem;
+  letter-spacing: -0.2rem;
+  color: rgba(0, 0, 0, 0.8);
+  margin-bottom: 3rem;
+}
+
+.container > .body,
+.container > .body * {
+  font-size: 1.6rem;
+  line-height: 1.8rem;
+}
+
+.container > .body p {
+  margin-bottom: 2rem;
+}

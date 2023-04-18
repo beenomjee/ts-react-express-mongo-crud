@@ -1,0 +1,73 @@
+.container {
+  width: 1200px;
+  max-width: 95vw;
+  margin: 5rem auto;
+}
+
+.container > h1 {
+  font-size: 5rem;
+  line-height: 5rem;
+  letter-spacing: -0.2rem;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.container > .heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 1rem;
+  gap: 3rem;
+}
+
+.container > .heading > .left {
+  flex: 1;
+  max-width: 30rem;
+}
+
+.container > .heading > .left {
+  background-color: #fff;
+  border-radius: 1000rem;
+  padding: 0.5rem 1rem;
+  font-size: 1.6rem;
+  color: #697076;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+  box-shadow: 0px 0px 0.5rem 0rem #9fa0a1 inset;
+}
+
+.container > .heading > .left > input {
+  border: none;
+  outline: none;
+  color: #697076;
+  font-size: 1.6rem;
+  font-weight: 500;
+  flex: 1;
+}
+
+.container > .heading > .right > button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem;
+  border: none;
+  outline: none;
+  background-color: #1882f4;
+  font-weight: bold;
+  color: #fff;
+  font-size: 1.6rem;
+  cursor: pointer;
+  border-radius: 0.5rem;
+  transition: transform 0.1s;
+  white-space: nowrap;
+}
+
+.container > .heading > .right > button:active {
+  transform: scale(0.97);
+}
+
+.container > .posts {
+  margin-top: 1rem;
+}

@@ -1,0 +1,89 @@
+.container {
+  width: 100%;
+  overflow-x: auto;
+  border: 1px solid hsla(0, 0%, 0%, 0.1);
+}
+
+.container > table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+}
+
+.container > table > thead > tr > th {
+  border-bottom: 1px solid hsla(0, 0%, 0%, 0.1);
+  text-align: left;
+  padding: 1rem;
+  font-weight: bold;
+  font-size: 1.3rem;
+  line-height: 1.3rem;
+  color: rgba(0, 0, 0, 0.8);
+  white-space: nowrap;
+}
+
+.container > table > thead > tr > th:nth-child(1) {
+  width: 20%;
+}
+
+.container > table > thead > tr > th:nth-child(2) {
+  width: 75%;
+}
+.container > table > thead > tr > th:last-child {
+  text-align: center;
+  width: 5%;
+}
+
+.container > table > tbody > tr > td {
+  border-bottom: 1px solid hsla(0, 0%, 0%, 0.1);
+  text-align: left;
+  padding: 1rem;
+  font-weight: normal;
+  font-size: 1.4rem;
+  line-height: 1.4rem;
+  color: rgba(0, 0, 0, 0.8);
+  white-space: nowrap;
+}
+
+.container > table > tbody > tr:last-child > td {
+  border-bottom: none;
+}
+
+.container > table > tbody > tr > td:last-child {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.container > table > tbody > tr > td:last-child > button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #c07a74;
+  outline: none;
+  background-color: transparent;
+  border: none;
+  font-size: 1.6rem;
+  cursor: pointer;
+}
+
+.container > table > tbody > tr > td:last-child > button:first-child {
+  color: #5da8e9;
+}
+
+.container > table > tbody > tr > td:last-child > button:nth-child(2) {
+  color: rgba(39, 149, 39, 0.9);
+  font-size: 2rem;
+}
+
+.container > table > tbody > tr > td:last-child > button:last-child {
+  font-size: 2rem;
+}
+
+/* noPost */
+.noPost {
+  font-size: 1.6rem;
+  text-align: center;
+  padding: 1rem 0;
+  margin-top: 3rem;
+}
